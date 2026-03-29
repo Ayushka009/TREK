@@ -29,8 +29,8 @@ interface PerPersonSummaryEntry {
 }
 
 // ── Helpers ──────────────────────────────────────────────────────────────────
-const CURRENCIES = ['EUR', 'USD', 'GBP', 'JPY', 'CHF', 'CZK', 'PLN', 'SEK', 'NOK', 'DKK', 'TRY', 'THB', 'AUD', 'CAD']
-const SYMBOLS = { EUR: '€', USD: '$', GBP: '£', JPY: '¥', CHF: 'CHF', CZK: 'Kč', PLN: 'zł', SEK: 'kr', NOK: 'kr', DKK: 'kr', TRY: '₺', THB: '฿', AUD: 'A$', CAD: 'C$' }
+const CURRENCIES = ['EUR', 'USD', 'GBP', 'JPY', 'AUD', 'CAD','LKR','MYR']
+const SYMBOLS = { EUR: '€', USD: '$', GBP: '£', JPY: '¥', AUD: 'A$', CAD: 'C$', LKR: 'Rs', MYR: 'RM' }
 const PIE_COLORS = ['#6366f1', '#ec4899', '#f59e0b', '#10b981', '#3b82f6', '#8b5cf6', '#ef4444', '#14b8a6', '#f97316', '#06b6d4', '#84cc16', '#a855f7']
 
 const fmtNum = (v, locale, cur) => {
